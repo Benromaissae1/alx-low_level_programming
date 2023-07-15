@@ -4,8 +4,6 @@
 /**
  * main - Entry point of the program
  *
- * Description: false or true validation
- *
  * Return: Always 0 (success)
 */
 int main(void)
