@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - generate random numbers to detect -ve or +ve
  *
- * Return: Always 0 (Success)
+ * Return: always (0)
  *
  */
 int main(void)
