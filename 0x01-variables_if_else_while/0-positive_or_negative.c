@@ -1,15 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
  * Description: false or true validation
  *
  * Return: Always 0 (success)
 */
-
 int main(void)
 {
 	int n;
