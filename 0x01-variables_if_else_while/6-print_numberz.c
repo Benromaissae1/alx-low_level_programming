@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	char ch = 'z';
+	int digit = 0;
 
-	while (ch >= 'a')
+	while (digit >= 9)
 	{
-		putchar(ch);
-		ch--;
+		/*convert digit to ASCII representation*/
+		putchar(digit + '0');
+		digit++;
 	}
 	putchar('\n');
 
