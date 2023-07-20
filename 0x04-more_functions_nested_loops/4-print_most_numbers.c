@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - print 0 - 9
  *                     dont print 2 and 4
- *                     use only _outchar twice
+ *                     use only _putchar twice
  *
  * Return: Always 0 (Success)
  */
