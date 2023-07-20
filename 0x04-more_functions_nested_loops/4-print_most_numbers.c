@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print 0 - 9
- *                     dont print 2 and 4
- *                     use only _putchar twice
+ * print_most_numbers - print 0 - 9 apart
+ *                     from 2 and 4 you can
+ *                     only use _putchar twice
  *
  * Return: Always 0 (Success)
  */
