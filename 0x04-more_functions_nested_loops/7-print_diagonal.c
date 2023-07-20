@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_diagonar - draws a diagonal line on the terminal
+ * print_diagonar - print a diagonal line
  *
  * @n: the number of times the character / should be printed
  */
 
-void print_diagonar(int n)
+void print_diagonal(int n)
 {
 	int postn, space;
 
