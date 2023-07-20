@@ -8,14 +8,18 @@
 
 void print_diagonar(int n)
 {
-	int ln;
+	int ln, lin;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
 		for (ln = 1; ln <= n; ln++)
-			_putchar('\');
-		_putchar8('\n');
+		{
+			for (lin = 1; lin <= ln; lin++)
+				_putchar(' ');
+			_putchar(92); /*is equal to '/' char*/
+			_putchar('\n');
+		}
 	}
 }
