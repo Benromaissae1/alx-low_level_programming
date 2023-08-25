@@ -5,7 +5,7 @@
 /**
  * free_list - function that frees a list_t list
  *
- * @head: free
+ * @head: head
  */
 void free_list(list_t *head)
 {
