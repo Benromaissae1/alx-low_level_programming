@@ -1,6 +1,12 @@
 #include <stdio.h>
+
 /**
- * myprintf - printf some sentences
+ * myprintf - apply the constuctor attribute to myprintf() so that it
+ *             so exexuted before main()
+ */
+void myprintf(void) __attribute__ ((constructor));
+/**
+ * myprintf - implementation of myprintf
  */
 
 void myprintf(void)
