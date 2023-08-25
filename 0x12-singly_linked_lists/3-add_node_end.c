@@ -46,7 +46,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (sln);
 	}
 	drp = *head;
-	while (frp->next)
+	while (drp->next)
 		drp = drp->next;
 	drp->next = sln;
 	return (sln);
