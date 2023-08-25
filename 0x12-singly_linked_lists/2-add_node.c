@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * _strlen - return the length of a string 
+ * _strlen - return the length of a string
  * @s: a character
  * Return: value is b
  */
@@ -35,6 +35,7 @@ list_t *add_node(list_t **head, const char *str)
 	add->len = _strlen(str);
 
 	add->str = strdup(str);
+	add->next = *head;
 	*head = add;
 
 	return (add);
