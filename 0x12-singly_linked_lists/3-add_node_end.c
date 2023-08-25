@@ -27,17 +27,17 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *sln, *drp;
 
+	if (str == NULL)
+		return (NULL);
+	sln = malloc(sizeof(list_t));
+	if (sln == NULL)
+		return (NULL);
 	sln->str = strdup(str);
 	if (sln->str == NULL)
 	{
 		free(sln);
 		return (NULL);
 	}
-	sln = malloc(sizeof(list_t));
-	if (sln == NULL)
-		return (NULL);
-	if (str == NULL)
-		return (NULL);
 	sln->len = _strlen(sln->str);
 	sln->next = NULL;
 	if (*head == NULL)
